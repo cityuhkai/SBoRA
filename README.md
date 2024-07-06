@@ -1,6 +1,6 @@
 # SBoRA: Low-Rank Adaptation with Regional Weight Updates
 
-|[Papaer]()
+|[Paper]()
 
 This repo supports the paper "SBoRA: Low-Rank Adaptation with Regional Weight Updates". Developed by members from City University of Hong Kong, TiLab.
 
