@@ -16,4 +16,5 @@ We introduces Standard Basis LoRA (SBoRA), a novel parameter-efficient fine-tuni
 We provide google colab demo.  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1UZtKy7BUm_JHw3h0wkM47SoC4cOmKcN3#scrollTo=LZaW1CI3dzfE)     
 
 # Instruction
+This repository contains three main components: Commonsense reasoning; Arithmetic reasoning and QSBoRA. Which correspond to the three experiemnts in our paper. Please visit each directory to find more details.
 
