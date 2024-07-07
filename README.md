@@ -5,7 +5,7 @@
 This repo supports the paper "SBoRA: Low-Rank Adaptation with Regional Weight Updates". Developed by members from City University of Hong Kong, CityUHK-AI Group.
 
 <h1 align="center">
-    <img src="./imgs/brain_weight.png" width=600>
+    <img src="./imgs/brain_weight.png" width=600>Figure 1.  Four fine-tuning strategies
 </h1>
 
 # Overview
