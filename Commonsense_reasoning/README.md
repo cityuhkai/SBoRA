@@ -1,2 +1,23 @@
 # Finetuning LLaMA on Commonsense reasoning tasks using SBoRA
 This directory includes the SBoRA implementation and guidelines for reproducing the results in our paper. It is developed following the previous awesome works: [DoRA](https://github.com/NVlabs/DoRA) and [LLM-Adapters](https://github.com/AGI-Edgerunners/LLM-Adapters).
+
+## Setup
+1. Install dependencies
+```bash
+conda create -n dora_llama python=3.10
+conda activate sbora_cr
+pip install -r requirements.txt
+```
+
+## Datasets
+1. Download the complete commonsense datasets from [here](https://github.com/AGI-Edgerunners/LLM-Adapters/tree/main/dataset) and download the commonsense 170k finetuning dataset from [here](https://github.com/AGI-Edgerunners/LLM-Adapters/blob/main/ft-training_set/commonsense_170k.json), then organize the data as follows
+```bash
+# Store the complete commonsense datasets
+./dataset
+# rest of the files
+./experiment
+./peft
+# Finetuning commonsense dataset
+./commonsense_170k.json
+...
+```
