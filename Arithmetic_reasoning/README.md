@@ -9,5 +9,5 @@ conda activate sbora_ar
 pip install -r requirements.txt
 ```
 
-### Datasets
+## Datasets
 Download the training dataset [math_10k.json](https://github.com/AGI-Edgerunners/LLM-Adapters/blob/main/ft-training_set/math_10k.json) and the [evaluation datasets (AddSub, AQuA, gsm8k, mathqa, and SVAMP)](https://github.com/AGI-Edgerunners/LLM-Adapters/tree/main/dataset)
