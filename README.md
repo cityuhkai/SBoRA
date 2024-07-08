@@ -16,11 +16,13 @@ We introduces Standard Basis LoRA (SBoRA), a novel parameter-efficient fine-tuni
 <h6 align="center">
     <img src="./imgs/fig1_new.png" width=600>
     </br>
-    Figure 1. Caption
+    Four fine-tuning strategies
 </h6>
-<p align="center">
+<h6 align="center">
     <img src="./imgs/fig2.png" width=600>
-</p>
+    </br>
+    Regional weight update process of SBoRA, showcasing distinct $\mathbf{W}_{0}+\mathrm{\Delta}\mathbf{W}$
+</h6>
 
 # Useful Links
 
