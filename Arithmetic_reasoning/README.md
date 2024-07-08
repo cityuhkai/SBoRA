@@ -10,4 +10,4 @@ pip install -r requirements.txt
 ```
 
 ### Datasets
-Download the training dataset [math_10k.json](https://github.com/AGI-Edgerunners/LLM-Adapters/blob/main/ft-training_set/math_10k.json) and the [evaluation datasets](https://github.com/AGI-Edgerunners/LLM-Adapters/tree/main/dataset)
+Download the training dataset [math_10k.json](https://github.com/AGI-Edgerunners/LLM-Adapters/blob/main/ft-training_set/math_10k.json) and the [evaluation datasets (Select AddSub, AQuA, gsm8k, mathqa, and SVAMP)](https://github.com/AGI-Edgerunners/LLM-Adapters/tree/main/dataset)
