@@ -14,14 +14,10 @@ We introduces Standard Basis LoRA (SBoRA), a novel parameter-efficient fine-tuni
 
 <p align="center">
     <img src="./imgs/fig1_new.png" width=400>
-    <br>
-    <#### Figure 1. Four fine-tuning strategies>
 </p>
 ! [Figure 1](./imgs/fig1_new.png "Figure1")
 <p align="center">
     <img src="./imgs/fig2.png" width=400>
-    <br>
-    #### Figure 2.
 </p>
 
 # Useful Links
