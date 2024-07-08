@@ -21,7 +21,7 @@ We introduces Standard Basis LoRA (SBoRA), a novel parameter-efficient fine-tuni
 <h6 align="center">
     <img src="./imgs/fig2.png" width=600>
     </br>
-    Regional weight update process of SBoRA, showcasing distinct $\mathbf{W}_{0}+\mathrm{\Delta}\mathbf{W}$
+    Regional weight update process of SBoRA, showcasing distinct $\mathbf{W}_{0}+\mathrm{\Delta}\mathbf{W}$ computing procedures of SBoRA-FA(upper) and SBoRA-FB(lower). The diagram employs different colors to represent frozen, trainable, and zero parameters.
 </h6>
 
 # Useful Links
