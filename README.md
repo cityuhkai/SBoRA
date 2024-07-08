@@ -27,5 +27,5 @@ We introduces Standard Basis LoRA (SBoRA), a novel parameter-efficient fine-tuni
 # Useful Links
 
 # Instruction
-This repository contains three main components: Commonsense reasoning; Arithmetic reasoning and QSBoRA. Which correspond to the three experiemnts in our paper. Please visit each directory to find more details.
+This repository contains three main components: **Commonsense_reasoning**; **Arithmetic_reasoning** and **QSBoRA**. Which correspond to the three experiemnts in our paper. Please visit each directory to find more details.
 
