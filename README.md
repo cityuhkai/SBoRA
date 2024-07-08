@@ -17,7 +17,7 @@ We introduces Standard Basis LoRA (SBoRA), a novel parameter-efficient fine-tuni
 </p>
 
 <p align="center">
-    <img src="./imgs/fig1_new.png" >
+    <img src="./imgs/fig1_new.png" width=500>
     Figure 1. Caption
 </p>
 <p align="center">
