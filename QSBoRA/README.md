@@ -21,3 +21,5 @@ sh finetune_llama7b_SBoRAFA.sh [output_dir] [hftoken]
 ```
 sh finetune_llama7b_SBoRAFB.sh [output_dir] [hftoken]
 ```
+## Acknowledgement
+This repo takes reference for [QLoRA](https://github.com/artidoro/qlora). Thanks for their wonderful works.
