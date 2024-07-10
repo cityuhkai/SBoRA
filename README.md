@@ -50,8 +50,15 @@ This repository contains three main components: **Commonsense_reasoning**; **Ari
 |LLaMA3-8B / SBoRA-FB | 64 | 62.9M | 71.8 | 85.2 | 79.2 | 91.4 | 82.9 | 86.7 | 74.0 | 83.4 | 81.8 |
 
 ## Arithmetic reasoning task
-| Model / Method
-
+| Model / Method | r | TP | MultiArith | GSM8K | AddSub | AQuA | SingleEq | SVAMP | Average |
+|----------------|---|----|------------|-------|--------|------|----------|-------|---------|
+|LLaMA-7B \ LoRA | 32 | 56.1M | 94.5 | 36.3 | 81.8 | 15.0 | 82.7 | 45.6 | **59.3** |
+|LLaMA-7B \ DoRA | 32 | 57.4M | 95.7 | 36.2 | 78.7 | 15.4 | 81.7 | 46.6 | 59.1 | 
+|LLaMA-7B \ SBoRA-FA | 32 | 28.0M | 95.5 | 34.6 | 79.7 | 20.1 | 78.9 | 44.8 | 58.9 |
+|LLaMA-7B \ SBoRA-FB | 32 | 28.0M | 92.2 | 31.0 | 77.5 | 15.7 | 78.5 | 41.8 | 56.1 |
+|LLaMA-7B \ LoRA | 64 | 112.2M | 94.0M | 36.8 | 84.3 | 17.3 | 82.3 | 44.7 | 59.9 |
+|LLaMA-7B \ DoRA | 64 | 113.1M | 95.0M | 35.5 | 84.1 | 20.1 | 85.0 | 47.1 | 61.1 |
+|LLaMA-7B \ SBoRA-FA | 64 | 56.1M | 97.8 | 36.6 | 85.1 | 19.3 | 83.9 | 48.5 | **61.9** |
 
 
 # Contact
