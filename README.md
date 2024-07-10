@@ -32,9 +32,9 @@ This repository contains three main components: **Commonsense_reasoning**; **Ari
 |   姓名   |   学科   |   成绩   |
 |:--------:|:-------:|:-------:|
 | John     | Math     |   90    |
-| ^^         | Science  |   85    |
+| ^         | Science  |   85    |
 | Eric     | Math     |   95    |
-| ^^         | Science  |   88    |
+| ^         | Science  |   88    |
 ## Commonsense reasoning task
 | Model    |PEFT Methods| r | TP |  BoolQ  |  PIQA  |  SIQA  |  HellaSwag  |  WinoGrande  |  ARC-e  |  ARC-c  |  OBQA  |  Average  |
 |----------|------------|---|----|---------|--------|--------|-------------|--------------|---------|---------|--------|-----------|
