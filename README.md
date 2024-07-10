@@ -29,3 +29,6 @@ We introduces Standard Basis LoRA (SBoRA), a novel parameter-efficient fine-tuni
 # Instruction
 This repository contains three main components: **Commonsense_reasoning**; **Arithmetic_reasoning** and **QSBoRA**. Which correspond to the three experiemnts in our paper. Please visit each directory to find more details.
 
+# Contact
+Po Lai-Man: eelmpo@cityu.edu.hk; Liu Yuyang: yuyangliu5-c@my.cityu.edu.hk
+
