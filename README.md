@@ -2,7 +2,7 @@
 
 |[Paper](https://arxiv.org/abs/2407.05413)
 
-This repo supports the paper "SBoRA: Low-Rank Adaptation with Regional Weight Updates". Developed by members from City University of Hong Kong, CityUHK-AI Group.
+This repo supports the paper "SBoRA: Low-Rank Adaptation with Regional Weight Updates". Developed by Liu Yuyang from City University of Hong Kong, CityUHK-AI Group.
 
 <h1 align="center">
     <img src="./imgs/brain_weight.png" width=900>
