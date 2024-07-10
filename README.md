@@ -29,16 +29,10 @@ We introduces Standard Basis LoRA (SBoRA), a novel parameter-efficient fine-tuni
 This repository contains three main components: **Commonsense_reasoning**; **Arithmetic_reasoning** and **QSBoRA**. Which correspond to the three experiemnts in our paper. Please visit each directory to find more details.
 
 # Experiments results
-|   姓名   |   学科   |   成绩   |
-|--------|-------|-------|
-| John     | Math     |   90    |
-|^         | Science  |   85    |
-| Eric     | Math     |   95    |
-|         | Science  |   88    |
 ## Commonsense reasoning task
 | Model    |PEFT Methods| r | TP |  BoolQ  |  PIQA  |  SIQA  |  HellaSwag  |  WinoGrande  |  ARC-e  |  ARC-c  |  OBQA  |  Average  |
 |----------|------------|---|----|---------|--------|--------|-------------|--------------|---------|---------|--------|-----------|
-|LLaMA-7B  |  
+|LLaMA-7B  |LoRA  | 32 | 56.1M | 94.5 | 36.3 | 81.8 | 15.0 | 82.7 | 45.6 | \textbf{59.3} |  
 
 
 
