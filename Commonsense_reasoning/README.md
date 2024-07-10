@@ -37,4 +37,4 @@ sh llama_7B_SBoRA-FA_traineval.sh 64 128 [output_dir] 0 [hgtoken]
 sh llama_7B_SBoRA-FA_traineval.sh 64 128 [output_dir] 0 [hgtoken]
 ```
 ## Acknowledgement
-This repo take reference for [LLM-Adapters](https://github.com/AGI-Edgerunners/LLM-Adapters) and [DoRA](https://github.com/NVlabs/DoRA). Thanks to their wonderful works.
+This repo take reference for [LLM-Adapters](https://github.com/AGI-Edgerunners/LLM-Adapters) and [DoRA](https://github.com/NVlabs/DoRA). Thanks for their wonderful works.
