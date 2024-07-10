@@ -111,5 +111,5 @@ Quantitative comparison result of SBoRA single concept tuning of image generatio
 | SBoRA-FB | 0.6910 | 0.7676 | 0.7293 |
 
 # Contact
-Po Lai-Man: eelmpo@cityu.edu.hk; Liu Yuyang: yuyangliu5-c@my.cityu.edu.hk
+Po Lai-Man: eelmpo@cityu.edu.hk; Liu Yuyang: yuyangliu5-c@my.cityu.edu.hk; Wu Haoxuan: haoxuanwu2-c@my.cityu.edu.hk
 
