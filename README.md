@@ -30,9 +30,9 @@ This repository contains three main components: **Commonsense_reasoning**; **Ari
 
 # Experiments results
 ## Commonsense reasoning task
-| Model    |PEFT Methods| r | TP |  BoolQ  |  PIQA  |  SIQA  |  HellaSwag  |  WinoGrande  |  ARC-e  |  ARC-c  |  OBQA  |  Average  |
-|----------|------------|---|----|---------|--------|--------|-------------|--------------|---------|---------|--------|-----------|
-|LLaMA-7B  |LoRA  | 32 | 56.1M | 66.8 | 81.1 | 78.4 | 53.5 | 80.5 | 81.1 | 61.9 | 79.4 | **72.8** |
+| Model-Methods| r | TP |  BoolQ  |  PIQA  |  SIQA  |  HellaSwag  |  WinoGrande  |  ARC-e  |  ARC-c  |  OBQA  |  Average  |
+|----------|---|----|---------|--------|--------|-------------|--------------|---------|---------|--------|-----------|
+|LLaMA-7B-LoRA  | 32 | 56.1M | 66.8 | 81.1 | 78.4 | 53.5 | 80.5 | 81.1 | 61.9 | 79.4 | **72.8** |
 
 
 
