@@ -22,4 +22,7 @@ pip install -r requirements.txt
 ...
 ```
 ## Getting started
-Coming soon...
+### Code Structure
+Refer to `./peft/src/peft/tuners/sbora.py` for the implementation of SBoRA.
+Refer to `./finetune.py` for finetuning LLaMA.
+Refer to `./commonsense_evaluate.py` for the evaluation of the finetuned model.
