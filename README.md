@@ -52,13 +52,41 @@ This repository contains three main components: **Commonsense_reasoning**; **Ari
 ## Arithmetic reasoning task
 | Model / Method | r | TP | MultiArith | GSM8K | AddSub | AQuA | SingleEq | SVAMP | Average |
 |----------------|---|----|------------|-------|--------|------|----------|-------|---------|
-|LLaMA-7B \ LoRA | 32 | 56.1M | 94.5 | 36.3 | 81.8 | 15.0 | 82.7 | 45.6 | **59.3** |
-|LLaMA-7B \ DoRA | 32 | 57.4M | 95.7 | 36.2 | 78.7 | 15.4 | 81.7 | 46.6 | 59.1 | 
-|LLaMA-7B \ SBoRA-FA | 32 | 28.0M | 95.5 | 34.6 | 79.7 | 20.1 | 78.9 | 44.8 | 58.9 |
-|LLaMA-7B \ SBoRA-FB | 32 | 28.0M | 92.2 | 31.0 | 77.5 | 15.7 | 78.5 | 41.8 | 56.1 |
-|LLaMA-7B \ LoRA | 64 | 112.2M | 94.0M | 36.8 | 84.3 | 17.3 | 82.3 | 44.7 | 59.9 |
-|LLaMA-7B \ DoRA | 64 | 113.1M | 95.0M | 35.5 | 84.1 | 20.1 | 85.0 | 47.1 | 61.1 |
-|LLaMA-7B \ SBoRA-FA | 64 | 56.1M | 97.8 | 36.6 | 85.1 | 19.3 | 83.9 | 48.5 | **61.9** |
+|LLaMA-7B / LoRA | 32 | 56.1M | 94.5 | 36.3 | 81.8 | 15.0 | 82.7 | 45.6 | **59.3** |
+|LLaMA-7B / DoRA | 32 | 57.4M | 95.7 | 36.2 | 78.7 | 15.4 | 81.7 | 46.6 | 59.1 | 
+|LLaMA-7B / SBoRA-FA | 32 | 28.0M | 95.5 | 34.6 | 79.7 | 20.1 | 78.9 | 44.8 | 58.9 |
+|LLaMA-7B / SBoRA-FB | 32 | 28.0M | 92.2 | 31.0 | 77.5 | 15.7 | 78.5 | 41.8 | 56.1 |
+|LLaMA-7B / LoRA | 64 | 112.2M | 94.0M | 36.8 | 84.3 | 17.3 | 82.3 | 44.7 | 59.9 |
+|LLaMA-7B / DoRA | 64 | 113.1M | 95.0M | 35.5 | 84.1 | 20.1 | 85.0 | 47.1 | 61.1 |
+|LLaMA-7B / SBoRA-FA | 64 | 56.1M | 97.8 | 36.6 | 85.1 | 19.3 | 83.9 | 48.5 | **61.9** |
+|LLaMA-7B / SBoRA-FB | 64 | 56.1M | 94.8 | 33.1 | 77.5 | 16.9 | 78.5 | 40.6 | 56.9 |
+|LLaMA3-8B / LoRA | 32 | 56.6M | 68.3 | 50.5 | 83.3 | 35.8 | 87.2 | 71.2 | 66.1 |
+|LLaMA3-8B / DoRA | 32 | 57.4M | 97.3 | 62.0 | 90.9 | 25.6 | 94.9 | 73.4 | 74.0 |
+|LLaMA3-8B / SBoRA-FA | 32 | 25.2M | 99.5 | 66.0 | 91.9 | 30.3 | 97.4 | 75.8 | **76.8** |
+|LLaMA3-8B / SBoRA-FB | 32 | 31.5M | 98.0 | 57.2 | 92.2 | 33.9 | 94.1 | 69.6 | 74.2 |
+|LLaMA3-8B / LoRA | 64 | 113.2M | 97.2 | 56.3 | 92.7 | 22.8 | 92.3 | 69.3 | 71.8 |
+|LLaMA3-8B / DoRA | 64 | 114.0M | 97.8 | 55.2 | 91.1 | 24.0 | 94.7 | 72.0 | 72.5 |
+|LLaMA3-8B / SBoRA-FA | 64 | 50.3M | 99.2 | 64.7 | 94.4 | 24.8 | 98.0 | 75.0 | **76.0** |
+|LLaMA3-8B / SBoRA-FB | 64 | 62.9M | 98.2 | 50.9 | 87.1 | 28.0 | 91.7 | 63.0 | 69.8 |
+
+## QSBoRA on MMLU bechmarks
+| Model / Method | TP | Alpaca | Flanv2 |
+|----------------|----|--------|--------|
+|LLaMA-7B / QLoRA | 80.0M | 37.9 | **44.4** |
+|LLaMA-7B / QDoRA | 80.6M | **38.0** | 42.8 |
+|LLaMA-7B / QSBoRA-FA | 43.5M | 36.5 | 43.1 |
+|LLaMA-7B / QSBoRA-FB | 36.4M | 36.9 | 43.4 |
+|LLaMA-13B / QLoRA | 125.2M | 45.4 | 46.7 |
+|LLaMA-13B / QDoRA | 126.2M | 46.7 | 48.8 |
+|LLaMA-13B / QSBoRA-FA | 68.2M | **49.0** | **51.0** |
+|LLaMA-13B / QSBoRA-FB | 57.0M | 48.3 | 50.5 |
+|LLaMA3-8B / QLoRA | 83.9M | 51.9 | 49.5 |
+|LLaMA3-8B / QDoRA | 84.6M | 53.0 | 51.9 |
+|LLaMA3-8B / QSBoRA-FA | 44.0M | **56.5** | **56.4** |
+|LLaMA3-8B / QSBoRA-FB | 39.8M | 54.5 | 55.0 |
+
+# SBoRA diffusion fine-tuning results
+Qualitative comparison of single-concept SBoRA diffusion model image generation. Reference images for each concept is shown in the left column. LoRA-based method outperforms Custom Diffusion in terms of fidelity. Furthermore, Orthogonal Adaptation and SBoRA exhibit comparable performance to Mix-of-show, while also introducing orthogonal constraints that confer advantages in multi-concept scenarios. 
 
 
 # Contact
