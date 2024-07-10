@@ -10,4 +10,14 @@ conda activate qsbora
 pip install -U -r requirements.txt
 ```
 ## Getting started
-Comming soon...
+The `qsbora.py` code is a starting point for finetuning and evaluation. The implementation of QSBoRA can be found in `./peft_sbora`.
+### Fine-tuning and evaluation
+Below are comannds for SBoRA-FA/FB fine-tuning on model LLaMA-7B, Please select the corresponding bash scripts for models LLaMA-13B and LLaMA3-8B. Note that to use LLaMA3-8B, it is required to apply for the [access token](https://huggingface.co/docs/hub/en/security-tokens) and replace it with [hftoken]. Replace the [output_dir] with your own path to store the outputs.
+#### LLaMA-7B SBoRA-FA
+```
+sh finetune_llama7b_SBoRAFA.sh [output_dir] [hftoken]
+```
+#### LLaMA-7B SBoRA-FB
+```
+sh finetune_llama7b_SBoRAFB.sh [output_dir] [hftoken]
+```
