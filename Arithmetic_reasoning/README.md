@@ -13,10 +13,19 @@ pip install -r requirements.txt
 Download the training dataset [math_10k.json](https://github.com/AGI-Edgerunners/LLM-Adapters/blob/main/ft-training_set/math_10k.json) and the [evaluation datasets (AddSub, AQuA, gsm8k, mathqa, and SVAMP)](https://github.com/AGI-Edgerunners/LLM-Adapters/tree/main/dataset) and organize the data as follows:
 ```bash
 # Strore the evaluation dataset
-./dataset
+./Datasets/dataset
 # Finetuning arithmetic dataset
-./math_10k.json
+./Datasets/math_10k.json
 ```
 
 ## Getting started
-Coming soon...
+### Code Structure
+Refer to `./peft/src/peft/tuners/sbora.py` for the implementation of SBoRA.
+Refer to `./finetune.py` for finetuning LLaMA.
+Refer to `./commonsense_evaluate.py` for the evaluation of the finetuned model.
+
+
+
+
+## Acknowledgement
+This repo takes reference for [LLM-Adapters](https://github.com/AGI-Edgerunners/LLM-Adapters). Thanks for their wonderful works.
