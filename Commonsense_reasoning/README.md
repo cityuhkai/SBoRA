@@ -32,9 +32,9 @@ The bash scripts provided contain the whole process of first fine-tuning and the
 ```
 sh llama_7B_SBoRA-FA_traineval.sh 64 128 [output_dir] 0 [hgtoken]
 ```
-#### LLaMA3-8B: SBoRA-FA with rank 64
+#### LLaMA3-8B: SBoRA-FA with rank 32
 ```
-sh llama_7B_SBoRA-FA_traineval.sh 64 128 [output_dir] 0 [hgtoken]
+sh llama_7B_SBoRA-FA_traineval.sh 32 64 [output_dir] 0 [hgtoken]
 ```
 ## Acknowledgement
 This repo take reference for [LLM-Adapters](https://github.com/AGI-Edgerunners/LLM-Adapters) and [DoRA](https://github.com/NVlabs/DoRA). Thanks for their wonderful works.
