@@ -22,7 +22,7 @@ Download the training dataset [math_10k.json](https://github.com/AGI-Edgerunners
 ### Code Structure
 Refer to `./peft/src/peft/tuners/sbora.py` for the implementation of SBoRA.
 Refer to `./finetune.py` for finetuning LLaMA.
-Refer to `./commonsense_evaluate.py` for the evaluation of the finetuned model.
+Refer to `./evaluate.py` for the evaluation of the finetuned model.
 
 
 
