@@ -10,15 +10,15 @@ pip install -r requirements.txt
 ```
 
 ## Datasets
-1. Download the complete commonsense datasets from [here](https://github.com/AGI-Edgerunners/LLM-Adapters/tree/main/dataset) and download the commonsense 170k finetuning dataset from [here](https://github.com/AGI-Edgerunners/LLM-Adapters/blob/main/ft-training_set/commonsense_170k.json), then organize the data as follows under the directory of ./Datasets
+1. Download the complete commonsense datasets from [here](https://github.com/AGI-Edgerunners/LLM-Adapters/tree/main/dataset) and download the commonsense 170k finetuning dataset from [here](https://github.com/AGI-Edgerunners/LLM-Adapters/blob/main/ft-training_set/commonsense_170k.json), then organize the data as follows:
 ```bash
 # Store the complete commonsense datasets
-./dataset
+./Datasets/dataset
 # rest of the files
-./experiment
-./peft
+./Datasets/experiment
+./Datasets/peft
 # Finetuning commonsense dataset
-./commonsense_170k.json
+./Datasets/commonsense_170k.json
 ...
 ```
 ## Getting started
