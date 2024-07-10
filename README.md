@@ -90,6 +90,25 @@ Qualitative comparison of single-concept SBoRA diffusion model image generation.
 <h1 align="center">
     <img src="./imgs/SBoRA_diffusion.png" width=900>
 </h1>
+Quantitative comparison result of SBoRA single concept tuning of image generation in diffusion model. Previous methods have exhibited varying performance across different concepts or metrics. Custom Diffusion, for instance, proves to be less effective in preserving image alignment, whereas Mix-of-show and Orthogonal Adaptation encounter challenges in maintaining text alignment. In contrast, our proposed method achieves comparable performance and results, demonstrating a more stable score across all concepts and metrics. 
+
+## Text Alignment
+| Method | Character | Object | Mean |
+|--------|-----------|--------|------|
+| Custome Diffusion | 0.7893 | 0.7892 | 0.7893|
+| Mix-of_show | 0.7100 | 0.6487 | 0.6793 |
+| Orthogonal Adaptation | 0.7230 | 0.6635 | 0.6932 |
+| SBoRA-FA | 0.7437 | 0.6773 | 0.7105 |
+| SBoRA-FB | 0.7423 | 0.6929 | 0.7176 |
+
+## Image Alignment
+| Method | Character | Object | Mean |
+|--------|-----------|--------|------|
+| Custome Diffusion | 0.6223 | 0.7098 | 0.6661 |
+| Mix-of_show | 0.7081 | 0.7977 | 0.7529 |
+| Orthogonal Adaptation | 0.7150 | 0.7887 | 0.7518 |
+| SBoRA-FA | 0.7058 | 0.7851 | 0.7454 |
+| SBoRA-FB | 0.6910 | 0.7676 | 0.7293 |
 
 # Contact
 Po Lai-Man: eelmpo@cityu.edu.hk; Liu Yuyang: yuyangliu5-c@my.cityu.edu.hk
