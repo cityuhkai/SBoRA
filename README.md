@@ -87,7 +87,9 @@ This repository contains three main components: **Commonsense_reasoning**; **Ari
 
 # SBoRA diffusion fine-tuning results
 Qualitative comparison of single-concept SBoRA diffusion model image generation. Reference images for each concept is shown in the left column. LoRA-based method outperforms Custom Diffusion in terms of fidelity. Furthermore, Orthogonal Adaptation and SBoRA exhibit comparable performance to Mix-of-show, while also introducing orthogonal constraints that confer advantages in multi-concept scenarios. 
-
+<h1 align="center">
+    <img src="./imgs/SBoRA_diffusion.png" width=900>
+</h1>
 
 # Contact
 Po Lai-Man: eelmpo@cityu.edu.hk; Liu Yuyang: yuyangliu5-c@my.cityu.edu.hk
