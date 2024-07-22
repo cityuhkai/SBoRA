@@ -78,23 +78,23 @@ This repository contains three main components: **Commonsense_reasoning**; **Ari
 |LLaMA3-8B / SBoRA-FB | 64 | 62.9M | 98.2 | 50.9 | 87.1 | 28.0 | 91.7 | 63.0 | 69.8 |
 
 ## QSBoRA on MMLU bechmarks
-| Model / Method | TP | Alpaca | Flanv2 |
-|----------------|----|--------|--------|
-|LLaMA-7B / QLoRA | 80.0M | 37.9 | **44.4** |
-|LLaMA-7B / QDoRA | 80.6M | **38.0** | 42.8 |
-|LLaMA-7B / Q-Orthogonal Adaptation | 43.5M | 37.6 | 44.0 |
-|LLaMA-7B / QSBoRA-FA | 43.5M | 36.5 | 43.1 |
-|LLaMA-7B / QSBoRA-FB | 36.4M | 36.9 | 43.4 |
-|LLaMA-13B / QLoRA | 125.2M | 45.4 | 46.7 |
-|LLaMA-13B / QDoRA | 126.2M | 46.7 | 48.8 |
-|LLaMA-13B / Q-Orthogonal Adaptation | 68.2M | 47.8 | 50.4 | 
-|LLaMA-13B / QSBoRA-FA | 68.2M | **49.0** | **51.0** |
-|LLaMA-13B / QSBoRA-FB | 57.0M | 48.3 | 50.5 |
-|LLaMA3-8B / QLoRA | 83.9M | 51.9 | 49.5 |
-|LLaMA3-8B / QDoRA | 84.6M | 53.0 | 51.9 |
-|LLaMA3-8B / Q-Orthogonal Adaptation | 44.0M | 56.5 | 56.4 |
-|LLaMA3-8B / QSBoRA-FA | 44.0M | **56.5** | **56.4** |
-|LLaMA3-8B / QSBoRA-FB | 39.8M | 54.5 | 55.0 |
+| Model / Method | Rank | TP | Alpaca | Flanv2 |
+|----------------|----|--------|--------|-------|
+|LLaMA-7B / QLoRA | 64 | 80.0M | 37.9 | **44.4** |
+|LLaMA-7B / QDoRA | 64 | 80.6M | **38.0** | 42.8 |
+|LLaMA-7B / Q-Orthogonal Adaptation |64| 43.5M | 37.6 | 44.0 |
+|LLaMA-7B / QSBoRA-FA | 64 | 43.5M | 36.5 | 43.1 |
+|LLaMA-7B / QSBoRA-FB | 64 | 36.4M | 36.9 | 43.4 |
+|LLaMA-13B / QLoRA | 64 | 125.2M | 45.4 | 46.7 |
+|LLaMA-13B / QDoRA | 64 | 126.2M | 46.7 | 48.8 |
+|LLaMA-13B / Q-Orthogonal Adaptation | 64 |  68.2M | 47.8 | 50.4 | 
+|LLaMA-13B / QSBoRA-FA | 64 | 68.2M | **49.0** | **51.0** |
+|LLaMA-13B / QSBoRA-FB | 64 | 57.0M | 48.3 | 50.5 |
+|LLaMA3-8B / QLoRA | 64 | 83.9M | 51.9 | 49.5 |
+|LLaMA3-8B / QDoRA | 64 | 84.6M | 53.0 | 51.9 |
+|LLaMA3-8B / Q-Orthogonal Adaptation | 64 | 44.0M | 56.5 | 56.4 |
+|LLaMA3-8B / QSBoRA-FA | 64 | 44.0M | **56.5** | **56.4** |
+|LLaMA3-8B / QSBoRA-FB | 64 | 39.8M | 54.5 | 55.0 |
 
 # SBoRA diffusion fine-tuning results
 Qualitative comparison of single-concept SBoRA diffusion model image generation. Reference images for each concept is shown in the left column. LoRA-based method outperforms Custom Diffusion in terms of fidelity. Furthermore, Orthogonal Adaptation and SBoRA exhibit comparable performance to Mix-of-show, while also introducing orthogonal constraints that confer advantages in multi-concept scenarios. 
